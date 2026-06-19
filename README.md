@@ -136,68 +136,70 @@ Supported export formats:
 
 ### Home Page
 
-<img width="1470" height="883" alt="Home Page 1" src="https://github.com/user-attachments/assets/33f8237b-4a56-4f90-b18d-16866e4a3c57" />
+<img width="1470" height="883" alt="Home Page 1" src="https://github.com/user-attachments/assets/c229be44-78fd-40d4-bbb6-e60ff9a0b1cb" />
 
 ---
 
 ### Dashboard
 
-<img width="1470" height="887" alt="Dashboard 1" src="https://github.com/user-attachments/assets/d8ecbd25-03f2-471f-a708-933c16349cc7" />
-<img width="1470" height="877" alt="Dashboard 2" src="https://github.com/user-attachments/assets/068d7d99-01a9-4110-b5fd-77937dcd42b6" />
+<img width="1470" height="887" alt="Dashboard 1" src="https://github.com/user-attachments/assets/920f9921-33d3-4d04-a2bc-eb8e5cb89232" />
+<img width="1470" height="877" alt="Dashboard 2" src="https://github.com/user-attachments/assets/50bd0728-c36f-4a60-96fd-dd8d2f146c7d" />
 
 ---
 
 ### X-Ray Analysis
 
-<img width="1470" height="885" alt="X-ray Analysis" src="https://github.com/user-attachments/assets/534ec46f-8e89-4510-b0f6-d9f63a98a9b4" />
+<img width="1470" height="885" alt="X-ray Analysis" src="https://github.com/user-attachments/assets/eb00eb03-0585-4f4e-9265-6a8b3ab43f1c" />
 
 ---
 
 ### Patient Directory
 
-<img width="1470" height="882" alt="Patient Directory" src="https://github.com/user-attachments/assets/bbc1baf0-16ec-4e8f-ab0e-02c50907f510" />
+<img width="1470" height="882" alt="Patient Directory" src="https://github.com/user-attachments/assets/9783a431-d607-4fb6-a2f8-51d60367f02d" />
 
 ---
 
 ### Diagnostics Reports
 
-<img width="1470" height="884" alt="Diagnostics Reports" src="https://github.com/user-attachments/assets/11fc321c-2bdf-4fb6-927f-f0b781da7b0f" />
+<img width="1470" height="884" alt="Diagnostics Reports" src="https://github.com/user-attachments/assets/151d88c3-ae02-4a9d-9e1f-970f1fec3ffd" />
+
 
 ---
 
 ### MedVision AI Diagnostics Reports
 
-<img width="674" height="815" alt="MEDVISION AI DIAGNOSTIC REPORT" src="https://github.com/user-attachments/assets/8bb97966-394a-4746-9984-1fb16d8bd0c2" />
+<img width="674" height="815" alt="MEDVISION AI DIAGNOSTIC REPORT" src="https://github.com/user-attachments/assets/2ff5403e-a445-4c17-a64e-e0de794f64f1" />
+
 
 ---
 
 ### Dataset Hub
 
-<img width="1470" height="883" alt="Dataset Hub" src="https://github.com/user-attachments/assets/cd39229f-c48a-4d1f-8126-e6c9c4aafc60" />
+<img width="1470" height="883" alt="Dataset Hub" src="https://github.com/user-attachments/assets/938f860f-a2ef-4123-992f-338f85ae6960" />
 
 ---
 
 ### AI Model Registry
 
-<img width="1470" height="883" alt="AI Model Registry" src="https://github.com/user-attachments/assets/3a87ce1e-c049-4a2c-bb6d-0d9fdff6500d" />
+<img width="1470" height="883" alt="AI Model Registry" src="https://github.com/user-attachments/assets/16ec3f73-4d57-4db9-b411-9f4a64a1e9bc" />
 
 ---
 
 ### Experiment Tracking
-<img width="1470" height="879" alt="Experiment Tracking" src="https://github.com/user-attachments/assets/45b35a81-8def-4ea4-888d-24fa2be8d6a6" />
+
+<img width="1470" height="879" alt="Experiment Tracking" src="https://github.com/user-attachments/assets/49d67e6a-04ec-4b86-bf53-d8c9b07c11ed" />
 
 ---
 
 ### MLOps Automation Pipelines
 
-<img width="1470" height="879" alt="MLOps Automation Pipelines" src="https://github.com/user-attachments/assets/89c1bf60-3e46-49a8-871a-3dc79703d568" />
+<img width="1470" height="879" alt="MLOps Automation Pipelines" src="https://github.com/user-attachments/assets/0336c149-7f87-41e2-9091-c8934b7b0b94" />
 
 ---
 
 ### System Performance & Monitoring
 
-<img width="1469" height="882" alt="System Performance   Monitoring" src="https://github.com/user-attachments/assets/7761aea2-6ae6-4ab2-b373-5700f03abfc6" />
-
+<img width="1469" height="882" alt="System Performance   Monitoring" src="https://github.com/user-attachments/assets/f9b2ef17-feb9-4622-8ff0-e46e1bc6674d" />
 
 ---
 
@@ -205,7 +207,8 @@ Supported export formats:
 
 The platform follows a Docker-based microservices architecture.
 
-<img width="1024" height="1024" alt="system_architecture_medvisionai" src="https://github.com/user-attachments/assets/78961212-763b-44b6-b18e-53e912126731" />
+<img width="1024" height="1024" alt="system_architecture_medvisionai" src="https://github.com/user-attachments/assets/897506f9-78c7-4a62-a545-0a8ad10d858e" />
+
 
 ---
 
@@ -454,4 +457,3 @@ This project is intended for educational, research, and portfolio purposes only.
 AI/ML Engineer | Data Scientist | Full-Stack AI Developer
 
 MedVision AI was developed as a production-grade AI healthcare imaging platform demonstrating expertise in Deep Learning, Computer Vision, Explainable AI (XAI), MLOps, cloud-ready architecture, and modern full-stack development.
-
