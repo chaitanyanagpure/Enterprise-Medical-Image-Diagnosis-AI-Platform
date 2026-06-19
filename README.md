@@ -134,37 +134,70 @@ Supported export formats:
 
 ## Application Screenshots
 
-Add your project screenshots in the `/screenshots` directory.
+### Home Page
+
+<img width="1470" height="883" alt="Home Page 1" src="https://github.com/user-attachments/assets/33f8237b-4a56-4f90-b18d-16866e4a3c57" />
+
+---
 
 ### Dashboard
 
-```
-screenshots/dashboard.png
-```
+<img width="1470" height="887" alt="Dashboard 1" src="https://github.com/user-attachments/assets/d8ecbd25-03f2-471f-a708-933c16349cc7" />
+<img width="1470" height="877" alt="Dashboard 2" src="https://github.com/user-attachments/assets/068d7d99-01a9-4110-b5fd-77937dcd42b6" />
 
-### Patient Management
+---
 
-```
-screenshots/patients.png
-```
+### X-Ray Analysis
 
-### X-Ray Diagnostic Workspace
+<img width="1470" height="885" alt="X-ray Analysis" src="https://github.com/user-attachments/assets/534ec46f-8e89-4510-b0f6-d9f63a98a9b4" />
 
-```
-screenshots/xray-analysis.png
-```
+---
 
-### Grad-CAM Explainability Results
+### Patient Directory
 
-```
-screenshots/gradcam-result.png
-```
+<img width="1470" height="882" alt="Patient Directory" src="https://github.com/user-attachments/assets/bbc1baf0-16ec-4e8f-ab0e-02c50907f510" />
 
-### Generated PDF Reports
+---
 
-```
-screenshots/report.png
-```
+### Diagnostics Reports
+
+<img width="1470" height="884" alt="Diagnostics Reports" src="https://github.com/user-attachments/assets/11fc321c-2bdf-4fb6-927f-f0b781da7b0f" />
+
+---
+
+### MedVision AI Diagnostics Reports
+
+<img width="674" height="815" alt="MEDVISION AI DIAGNOSTIC REPORT" src="https://github.com/user-attachments/assets/8bb97966-394a-4746-9984-1fb16d8bd0c2" />
+
+---
+
+### Dataset Hub
+
+<img width="1470" height="883" alt="Dataset Hub" src="https://github.com/user-attachments/assets/cd39229f-c48a-4d1f-8126-e6c9c4aafc60" />
+
+---
+
+### AI Model Registry
+
+<img width="1470" height="883" alt="AI Model Registry" src="https://github.com/user-attachments/assets/3a87ce1e-c049-4a2c-bb6d-0d9fdff6500d" />
+
+---
+
+### Experiment Tracking
+<img width="1470" height="879" alt="Experiment Tracking" src="https://github.com/user-attachments/assets/45b35a81-8def-4ea4-888d-24fa2be8d6a6" />
+
+---
+
+### MLOps Automation Pipelines
+
+<img width="1470" height="879" alt="MLOps Automation Pipelines" src="https://github.com/user-attachments/assets/89c1bf60-3e46-49a8-871a-3dc79703d568" />
+
+---
+
+### System Performance & Monitoring
+
+<img width="1469" height="882" alt="System Performance   Monitoring" src="https://github.com/user-attachments/assets/7761aea2-6ae6-4ab2-b373-5700f03abfc6" />
+
 
 ---
 
@@ -172,33 +205,7 @@ screenshots/report.png
 
 The platform follows a Docker-based microservices architecture.
 
-```
-React Frontend (Vite + TypeScript)
-              |
-              |
-          FastAPI Backend
-              |
-------------------------------------------------
-|                    |                         |
-PostgreSQL        MinIO                 MLflow Registry
-Database       Object Storage          Model Tracking
-              |
-       Image Processing Pipeline
-              |
-       DICOM Validation & OpenCV
-              |
-      ResNet-18 Body Part Classifier
-              |
-      Confidence Threshold Validation
-              |
-       Anatomical Diagnostic Router
-              |
-     Specialized Disease Detection
-              |
-       Grad-CAM Explainability
-              |
-      Clinical Report Generation
-```
+<img width="1024" height="1024" alt="system_architecture_medvisionai" src="https://github.com/user-attachments/assets/78961212-763b-44b6-b18e-53e912126731" />
 
 ---
 
