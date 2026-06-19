@@ -437,3 +437,14 @@ This preserves required directories while excluding generated runtime files.
 ## License
 
 This project is intended for educational, research, and portfolio purposes only. It is not approved for real-world clinical diagnosis and should not replace professional medical evaluation.
+
+---
+
+## Author
+
+**Chaitanya Nagpure**
+
+AI/ML Engineer | Data Scientist | Full-Stack AI Developer
+
+MedVision AI was developed as a production-grade AI healthcare imaging platform demonstrating expertise in Deep Learning, Computer Vision, Explainable AI (XAI), MLOps, cloud-ready architecture, and modern full-stack development.
+
