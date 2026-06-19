@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: medvision_db
+    restart: always
+    environment:
+      POSTGRES_USER: medvision_user
+      POSTGRES_PASSWORD: medvision_password
+      POSTGRES_DB: medvision_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medvision_user -d medvision_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:RELEASE.2024-01-28T22-35-53Z
+    container_name: medvision_minio
+    ports:
+      - "9010:9000"
+      - "9011:9001"
+    environment:
+      MINIO_ROOT_USER: medvision_admin
+      MINIO_ROOT_PASSWORD: medvision_admin_password
+    volumes:
+      - miniodata:/data
+    command: server /data --console-address ":9001"
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.11.1
+    container_name: medvision_mlflow
+    ports:
+      - "5002:5000"
+    environment:
+      - AWS_ACCESS_KEY_ID=medvision_admin
+      - AWS_SECRET_ACCESS_KEY=medvision_admin_password
+      - MLFLOW_S3_ENDPOINT_URL=http://minio:9000
+    volumes:
+      - mlflowdata:/mlflow
+    command: >
+      mlflow server
+      --backend-store-uri sqlite:///mlflow/mlflow.db
+      --default-artifact-root s3://medvision-artifacts/
+      --host 0.0.0.0
+      --port 5000
+    depends_on:
+      - minio
+
+volumes:
+  pgdata:
+  miniodata:
+  mlflowdata:

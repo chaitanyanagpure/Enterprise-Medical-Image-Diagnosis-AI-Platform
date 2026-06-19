@@ -1,0 +1,59 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node / Frontend dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Python / Backend virtual environments and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/app/ml/__pycache__/
+backend/app/api/v1/endpoints/__pycache__/
+backend/app/core/__pycache__/
+backend/app/models/__pycache__/
+backend/app/schemas/__pycache__/
+backend/app/services/__pycache__/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Local runtime media uploads, heatmaps and generated reports
+backend/static/scans/*
+backend/static/heatmaps/*
+backend/static/reports/*
+
+# Preserve empty directory structures on clone
+!backend/static/scans/.gitkeep
+!backend/static/heatmaps/.gitkeep
+!backend/static/reports/.gitkeep
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
